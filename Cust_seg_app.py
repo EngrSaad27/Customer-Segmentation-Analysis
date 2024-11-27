@@ -117,29 +117,32 @@ def preprocess_and_visualize(E_com_cust, model):
     # Title for visualization
     st.title("Customer Segmentation")
 
-    # Visualizing Customer Segmentation on the basis of Hierarchical clusters
+   # Visualizing Customer Segmentation on the basis of Hierarchical clusters
     fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3, figsize=(20, 8))
+    
+    sns.set_style(style='whitegrid')
 
     sns.stripplot(data=RFM_normalization, x="Hierarchical Cluster", y="Recency",
-        hue="Recency", legend=False, ax=ax1)
+        hue="Hierarchical Cluster", legend=True, ax=ax1)
     ax1.set_ylabel('Recency',fontsize=20)
     ax1.set_xlabel('Cluster',fontsize=20)
     ax1.set_title('Recency-Based Clustering',fontsize=20)
 
     sns.stripplot(data=RFM_normalization, x="Hierarchical Cluster", y="Frequency",
-        hue="Frequency", legend=False, ax=ax2)
+        hue="Hierarchical Cluster", legend=False, ax=ax2)
     ax2.set_ylabel('Frequency',fontsize=20)
     ax2.set_xlabel('Cluster',fontsize=20)
     ax2.set_title('Frequency-Based Clustering',fontsize=20)
 
     sns.stripplot(data=RFM_normalization, x="Hierarchical Cluster", y="Monetary",
-        hue="Monetary", legend=False, ax=ax3)
+        hue="Hierarchical Cluster", legend=True, ax=ax3)
     ax3.set_ylabel('Monetary',fontsize=20)
     ax3.set_xlabel('Cluster',fontsize=20)
     ax3.set_title('Monetary-Based Clustering',fontsize=20)
 
     # Display the plot in Streamlit
     st.pyplot(fig)
+
 
 
 # Inform the user about required columns before file upload
