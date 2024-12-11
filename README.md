@@ -4,15 +4,13 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B.svg)](https://streamlit.io/)
 [![VSCode](https://img.shields.io/badge/VSCode%20-Enabled-76B900.svg)](https://code.visualstudio.com/download)
 
-[![Customer Segmentation App](https://youtu.be/0-fDxHk3SKA)
-
-![Project Snapshot](image_url)
+<p align="center">
+  <img src="app front.PNG" alt="Project Banner" width="800"/>
+</p>
 
 ## 🌟 Project Description
 
 This project aims to enhance marketing strategies and customer retention for an e-commerce company by gaining a deeper understanding of their customer base based on their purchasing pattern.The goal is to develop a robust customer segmentation model and a predictive classifier to categorize customers based on their purchasing patterns, enabling the company to tailor marketing strategies, improve customer retention, and optimize inventory management.
-
-
 
 ## 🎯 Features
 - 📊 Detail (Recency Frequency Monetary) RFM Analysis
@@ -35,13 +33,30 @@ graph TD
     I --> J[Customer Segmentation Visualization]
 ```
 
+## Installation & Setup
 
-## Snapshots
-![Feature 1](image_url)
-![Feature 2](image_url)
+### 1. Environment Setup
 
-## Installation
-1. Clone the repo: `git clone https://github.com/username/repo.git`
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# For Windows
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 💻 Usage Guide
+
+### Application Launch
+```bash
+streamlit run app.py
+```
+
+
 2. Navigate to the project directory: `cd project-name`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the project: `python main.py`
