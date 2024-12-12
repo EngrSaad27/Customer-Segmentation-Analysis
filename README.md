@@ -33,30 +33,6 @@ graph TD
     I --> J[Customer Segmentation Visualization]
 ```
 
-
-## 🚀 Installation & Setup
-
-### Environment Setup
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate environment
-# For Windows
-.\venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## 💻 Usage Guide
-
-### Application Launch
-```bash
-streamlit run app.py
-```
-
 ### 📄 Project Workflow
 
 1. **Dataset Upload**
@@ -82,9 +58,30 @@ streamlit run app.py
 5. **Model Evaluation & Prediction**
    - Evaluating Silhoutte Score
    - Customer Segmentation Visualization 
-  
-  
-  
+
+
+## 🚀 Installation & Setup
+
+### Environment Setup
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# For Windows
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 💻 Usage Guide
+
+### Application Launch
+```bash
+streamlit run app.py
+```
 
 ## 👥 **Customer Segmentation App Output**
 
