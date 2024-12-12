@@ -14,8 +14,8 @@ This project aims to enhance marketing strategies and customer retention for an 
 
 ## 🎯 Features
 - 📊 Detail (Recency Frequency Monetary) RFM Analysis
-- ⚙️ Feature Engineering
 - 📈 Analyzing Different Models
+- ⚙️ Customer Segmentation App
 
 ## 🛠️ Technical Architecture
 
