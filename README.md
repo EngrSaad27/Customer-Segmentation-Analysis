@@ -56,23 +56,34 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 📄 Document Processing Workflow
+### 📄 Project Workflow
 
 1. **Dataset Upload**
    - Support 0.5M Rows
    - Multiple Features
    - Helps to do Feature Engieering
 
-2. **Feature Engineering**
+2. **Exploratory Data Analysis**
+   - Statistical Analysis
+   - Univariate Analysis
+   - Bivariate Analysis 
+
+3. **Feature Engineering**
    - Create New Features for Machine Learning models
    - Features are Recency Frequency & Monetary
    - Helps to analyze RFM Analysis 
    
 
-3. **Machine Learning Models**
+4. **Machine Selection & Training**
    - Apply Unsupervised Learning Models
    - Analyze Different Models and Finalize one of them
-   - Visualize Customer Segmentation 
+  
+5. **Model Evaluation & Prediction**
+   - Evaluating Silhoutte Score
+   - Customer Segmentation Visualization 
+  
+  
+  
 
 ## 👥 **Customer Segmentation App Output**
 
