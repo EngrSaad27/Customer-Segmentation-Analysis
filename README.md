@@ -33,9 +33,9 @@ graph TD
     I --> J[Customer Segmentation Visualization]
 ```
 
-## Installation & Setup
+## 🚀 Installation & Setup
 
-### 1. Environment Setup
+### Environment Setup
 
 ```bash
 # Create virtual environment
@@ -56,19 +56,44 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### 📄 Document Processing Workflow
 
-2. Navigate to the project directory: `cd project-name`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the project: `python main.py`
+1. **Dataset Upload**
+   - Support 0.5M Rows
+   - Multiple Features
+   - Helps to do Feature Engieering
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
+2. **Feature Engineering**
+   - Create New Features for Machine Learning models
+   - Features are Recency Frequency & Monetary
+   - Helps to analyze RFM Analysis 
+   
 
-## Future Enhancements
-- Add feature X
-- Improve performance
+3. **Machine Learning Models**
+   - Apply Unsupervised Learning Models
+   - Analyze Different Models and Finalize one of them
+   - Visualize Customer Segmentation 
 
-## Contact
-Feel free to reach out: [Email](mailto:your_email@example.com) | [LinkedIn](your_linkedin_url)
+## 👥 **Customer Segmentation App Output**
+
+   <p align="center">
+    <img src="Customer Segmentation visuals.PNG" alt="Project Banner" width="800"/>
+  </p>
+ 
+## 🙏 Acknowledgments
+
+- Google Colab
+- Streamlit Community
+- Visual Studio Code
+  
+## 💻 Technologies Used
+
+- Python Programming Language
+- Scikit Learn Library
+- Pandas Library
+- NumPy Library
+- Seaborn Library
+- Matplotlib Library
+
+## 📞 Contact
+Feel free to reach out: [Email](mailto:isaad1066@gmail.com) | [LinkedIn](https://www.linkedin.com/in/saadkhalid123/) 
