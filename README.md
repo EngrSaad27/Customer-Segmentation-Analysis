@@ -60,7 +60,7 @@ graph TD
    - Customer Segmentation Visualization 
 
 
-## 🚀 Installation & Setup
+## 🚀 App Activation & Library installation
 
 ### Environment Setup
 
@@ -76,9 +76,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-## 💻 Usage Guide
-
-### Application Launch
+## 💻 Application Launch
 ```bash
 streamlit run app.py
 ```
